@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Lato&family=Open+Sans&family=Raleway&family=Roboto&display=swap");
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+.p {
+  margin: 0.5rem 0px;
+  text-indent: 1rem;
+}
+h1,
+h2,
+h3 {
+  font-family: "Acme", sans-serif;
+}
+/* ;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+footer {
+  h3 {
+    font-weight: bolder;
+    margin-top: 0.8rem;
+  }
+  a {
+    display: block;
+    color: aliceblue;
+    padding-top: 0.2rem;
+  }
+  .copyright {
+    border-top: 3px solid rgb(3, 36, 99);
+    text-align: center;
+    padding: 0.5rem;
+    background-color: black;
+  }
+}
+// => 'sm': '640px',
+@media (min-width: 640px) {
+}
+
+// => 'md': '768px',
+@media (min-width: 768px) {
+}
+
+// => 'lg': '1024px',
+@media (min-width: 1024px) {
+}
+
+// => 'xl': '1280px',
+@media (min-width: 1280px) {
+}
+
+// => '2xl': '1536px',
+@media (min-width: 1536px) {
+}
