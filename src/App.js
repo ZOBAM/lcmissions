@@ -4,6 +4,7 @@ import { Nav } from "./components/Nav";
 import { Contact } from "./views/Contact";
 import { Footer } from "./components/Footer";
 import { Home } from "./views/Home";
+import Our_belief from "./views/Our_belief";
 import About from "./views/About";
 import Support from "./views/Support";
 
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path="/support">
             <Support />
+          </Route>
+          <Route path="/our_belief">
+            <Our_belief />
           </Route>
           <Route path="/">
             <Home />
