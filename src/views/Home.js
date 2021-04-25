@@ -1,19 +1,22 @@
 import decision_bg from "./../assets/images/decision_bg.png";
+import video_thumbnail from "./../assets/images/video_thumbnail.jpg";
 import Photos from "../components/Photos";
 import Wots from "../components/Wots";
 
 function Home() {
   let missions = [
-    "Ikparata 2019",
+    "Ikpakpara 2019",
     "Enugu Ezike - Inyi 2017",
     "Awkuzu - 2020",
-    "Ikparata 2019",
-    "Enugu Ezike - Inyi 2017",
+    "Odenigbo - 2018",
+    "Enugu Ezike - Inyi 2020",
   ];
   const missionsList = missions.map((mission, index) => {
     return (
       <li className="shadow-sm mt-3 bg-white flex" key={index}>
-        <div className="w-24 h-16 bg-blue-900"></div>
+        <div className="w-24 h-16 bg-gray-900 overflow-hidden">
+          <img src={video_thumbnail} alt="missionary video thumbnail"/>
+        </div>
         <div className="p-3">{mission} Missions</div>
       </li>
     );

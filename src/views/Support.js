@@ -35,11 +35,23 @@ export default function Support() {
             Int'l and all her missionary engagements.
           </p>
         </li>
-        <li>Become a Missionary</li>
+        <li> <h2>Become a Missionary</h2> </li>
         <p className="font-semibold">
           (Rom 10:14)  How then shall they call on him in whom they have not
           believed? and how shall they believe in him of whom they have not
           heard? and how shall they hear without a preacher?
+        </p>
+        <p>
+          The greatest force for evangelism is humans for even the angel has to recommend Apostle Peter to Cornelius for salvation to be preached and achieved in the home of Cornelius.
+        </p>
+        <p>
+          Like in a war, the missionaries are the boots on the battlefield and on the frontline. Who by the ministry of the Spirit and the instrument of the Word snatch people away from the grip of hell and darkness.
+        </p>
+        <p>
+          What a great privilege that God has called us mere men to come and partner with Him in saving mankind? No wonder the reward of them that heed this call are so great and they are exceedingly cherished by the Father.
+        </p>
+        <p>
+          Humbly consider being part of the missionaries who have dedicated their lives to reaching the unreached.
         </p>
         <li>
           {" "}
@@ -65,7 +77,7 @@ export default function Support() {
       </ul>
       <p>
         Finally, let be clear by reminding you that you cannot lose your rewards
-        when you support the spreading of the gospel in which of the listed ways
+        when you support the spreading of the gospel in any of the listed ways
         above and we cannot outdo God in giving.
       </p>
     </div>
