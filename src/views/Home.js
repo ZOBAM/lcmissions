@@ -20,7 +20,7 @@ function Home() {
     return (
       <li className="shadow-sm mt-3 bg-white flex" key={index}>
         <div className="w-24 h-16 bg-gray-900 overflow-hidden">
-          <img src={video_thumbnails[index]} alt="missionary video thumbnail"/>
+          <img src={videoThumbnails[index]} alt="missionary video thumbnail"/>
         </div>
         <div className="p-3">{mission} Missions</div>
       </li>
