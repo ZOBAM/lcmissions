@@ -1,9 +1,14 @@
 import decision_bg from "./../assets/images/decision_bg.png";
 import video_thumbnail from "./../assets/images/video_thumbnail.jpg";
+import video_thumbnail1 from "./../assets/images/video_thumbnail1.jpg";
+import video_thumbnail2 from "./../assets/images/video_thumbnail2.jpg";
+import video_thumbnail3 from "./../assets/images/video_thumbnail3.jpg";
+import video_thumbnail4 from "./../assets/images/video_thumbnail4.jpg";
 import Photos from "../components/Photos";
 import Wots from "../components/Wots";
 
 function Home() {
+  const videoThumbnails = [video_thumbnail, video_thumbnail1, video_thumbnail2, video_thumbnail3, video_thumbnail4]
   let missions = [
     "Ikpakpara 2019",
     "Enugu Ezike - Inyi 2017",
@@ -15,7 +20,7 @@ function Home() {
     return (
       <li className="shadow-sm mt-3 bg-white flex" key={index}>
         <div className="w-24 h-16 bg-gray-900 overflow-hidden">
-          <img src={video_thumbnail} alt="missionary video thumbnail"/>
+          <img src={video_thumbnails[index]} alt="missionary video thumbnail"/>
         </div>
         <div className="p-3">{mission} Missions</div>
       </li>
