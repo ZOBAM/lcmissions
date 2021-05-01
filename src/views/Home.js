@@ -80,23 +80,17 @@ function Home() {
         </h2>
         <div className="p-4">
           <div className="w-3/4 m-auto">
-            <p>
+            {/* <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
               amet? Totam voluptatem tempora doloremque id? Maxime quis dolorum
               nostrum accusantium error cumque aut! Ex tempore adipisci
               laboriosam perspiciatis saepe hic.
-            </p>
+            </p> */}
           </div>
           <div className="flex flex-wrap text-center">
-            <div className="cursor-pointer p-4 border-2 w-1/2 md:w-1/4 bg-indigo-800 text-white font-semibold">
+            <div className="bg-indigo-800 text-white cursor-pointer transition-colors duration-500 p-4 border-2 w-1/2 md:w-1/4 hover:bg-indigo-800 hover:text-white hover:text-xl">
               Vigil
-              <span className="block hover:bg-indigo-800">
-                30th April, 2021
-              </span>
-            </div>
-            <div className="cursor-pointer transition-colors duration-500 p-4 border-2 w-1/2 md:w-1/4 hover:bg-indigo-800 hover:text-white hover:text-xl">
-              Vigil
-              <span className="block">14th May, 2021</span>
+              <span className="block  hover:bg-indigo-800">14th May, 2021</span>
             </div>
             <div className="cursor-pointer transition-colors duration-500 p-4 border-2 w-1/2 md:w-1/4 hover:bg-indigo-800 hover:text-white">
               Vigil
@@ -105,6 +99,10 @@ function Home() {
             <div className="cursor-pointer transition-colors duration-500 p-4 border-2 w-1/2 md:w-1/4 hover:bg-indigo-800 hover:text-white">
               Vigil
               <span className="block">11th June, 2021</span>
+            </div>
+            <div className="cursor-pointer p-4 border-2 w-1/2 md:w-1/4 font-semibold hover:bg-indigo-800 hover:text-white">
+              Vigil
+              <span className="block">25th June, 2021</span>
             </div>
           </div>
           {/* <div className="flex justify-center items-center mt-4 mb-10">

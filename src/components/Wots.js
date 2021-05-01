@@ -32,41 +32,54 @@ export default function Wots() {
             <div className="shadow-md p-4 bg-white pb-10 text-lg">
               <h3 className="font-bold text-2xl text-center">
                 <span className="inline-block w-4 bg-yellow-400 h-8"></span>{" "}
-                KEEP YOUR PROMISES
+                WORDS ARE POWERFUL, CHOOSE TO SPEAK RIGHTLY
               </h3>
               <h4 className="w-full md:w-2/3 m-auto p-4 mt-4 mb-4 bg-gray-100 font-bold">
-                Those who despise persistent sinners and honour the faithful
-                followers of the Lord and keep their promises even when it
-                hurts....( Psalm 15:4-5
+                For in many things we offended all. If any man offend not in
+                word, the same is a perfect man, and able also to bridle the
+                whole body ( James 3:2)
               </h4>
               <p className="p">
-                Promise keeping is a mark of a faithful spirit, a strong
-                Character. A man is only as good as his word. To be considered a
-                man or woman of intergrity you must ensure that your word is
-                good, your promise is kept.
+                The word you Speak are a true measure of your Spirituality. It
+                makes no difference what others might think or say about you.
+                What matters are the words that come out of your mouth every
+                day, irrespective of who you may be talking to; God, men,
+                yourself, circumstances, or nature. Be sure to only and always
+                Speak faith-filled and spirit - filled words.
               </p>
               <p className="p">
-                There are people who make promises,enter into agreements, cut
-                covenants but never keep them. It's a key mark of evil and
-                wicked men in these last days. They are covenant breakers ( II
-                Timo.3:3){" "}
+                The Apostle James likened the tongue to the rudder of a great
+                ship that the captain uses to navigate the ship aright,
+                irrespective of the fierce winds driving against it( James
+                3:4-5). This means that with your words, you can keep yourself
+                in health, in faith, in success, and in excellence. Don't talk
+                fear, lack or your inabilities. Consciously Speak faith-filled
+                word.{" "}
                 <button className={buttonClass} onClick={handleClick}>
                   {buttonText}
                 </button>
               </p>
               <div className={toggleShow}>
                 <p className="p">
-                  One of the key attributes of our God is, He keeps His promises
-                  and cannot lie. The Bible says that all the promises of God in
-                  Christ are yeah and Amen.( 2Cor.1:20)
+                  There is no need praying and asking God to make His promises
+                  real in your life; they are already real. Simply acknowledge
+                  and affirm who you are in Christ and your inheritance in Him
+                  and walk accordingly. Don't say, "Lord you promised to bless
+                  me; you promised to make me fruitful; rather, say, *Lord, I
+                  thank you for you have blessed me with all things; you have
+                  made me fruitful and productive." Hallelujah!!
                 </p>
                 <p className="p">
-                  He keeps covenant forever. Heaven and earth can pass away but
-                  the word shall stand forever. He is a faithful God. As the
-                  children of God, He wants us to be faithful too, true to our
-                  words and keep promises, keep our agreements and commitments.
+                  It's wonderful that with your faith-filled words, you can
+                  disallow sickness, diseases, infirmities and weakness from
+                  your body. Always Speak health, strength and abundance. Use
+                  your tongue to come out of depressions, trouble, poverty and
+                  frustrations. Today,where you are, and what you are in life,
+                  are the result of Yesterday's words. Jesus said you shall have
+                  what you say ( Mark 11:23). Therefore, beautify your life with
+                  faith-filled words.
                 </p>
-                <span className="font-semibold">
+                {/* <span className="font-semibold">
                   To be able to keep your promises, ensure you do the following:
                 </span>
                 <ol className="list-decimal ml-4">
@@ -92,25 +105,32 @@ export default function Wots() {
                 <p className="p">
                   Today make up your mind to keep promises and you will enjoy
                   favor all around.
-                </p>
+                </p> */}
                 <h4 className="font-bold">Prayer Points</h4>
                 <ol className="ml-4 list-decimal">
-                  <li>Give thanks to God because He keeps His promises.</li>
                   <li>
-                    Ask the Lord to bless you with a faithful spirit that keeps
-                    covenant and promises
+                    Appreciate God for the gift of His words that transform your
+                    life every day.
                   </li>
                   <li>
-                    Ask the good Lord to bring to pass all the good words He has
-                    spoken concerning you.
+                    Begin to confess and prophecy good, faith-filled and
+                    edifying words concerning your marriage, education, finances
+                    etc.
                   </li>
-                  <li>Give thanks to God for answered prayers.</li>
+                  <li>
+                    begin now to confess and exercise Dominion over Satan and
+                    circumstances of life in your life that are very negative.
+                  </li>
+                  <li>
+                    Begin to confess it, I am a Victor in Christ Jesus, I am
+                    reigning with Christ.
+                  </li>
                 </ol>
               </div>
             </div>
             <div className="w-28 rounded-full h-28 m-auto bg-gradient-to-b from-black to-red-900 border-4 border-gray-200 flex justify-center items-center py-6 -mt-8 shadow-2xl">
               <span className="border-b-2 border-yellow-400 p-1 text-center text-white font-bold">
-                15th Apr. <br /> 2021{" "}
+                30th Apr. <br /> 2021{" "}
               </span>{" "}
             </div>
           </div>
