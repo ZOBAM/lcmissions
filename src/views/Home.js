@@ -8,7 +8,13 @@ import Photos from "../components/Photos";
 import Wots from "../components/Wots";
 
 function Home() {
-  const videoThumbnails = [video_thumbnail, video_thumbnail1, video_thumbnail2, video_thumbnail3, video_thumbnail4]
+  const videoThumbnails = [
+    video_thumbnail,
+    video_thumbnail1,
+    video_thumbnail2,
+    video_thumbnail3,
+    video_thumbnail4,
+  ];
   let missions = [
     "Ikpakpara 2019",
     "Enugu Ezike - Inyi 2017",
@@ -20,7 +26,7 @@ function Home() {
     return (
       <li className="shadow-sm mt-3 bg-white flex" key={index}>
         <div className="w-24 h-16 bg-gray-900 overflow-hidden">
-          <img src={videoThumbnails[index]} alt="missionary video thumbnail"/>
+          <img src={videoThumbnails[index]} alt="missionary video thumbnail" />
         </div>
         <div className="p-3">{mission} Missions</div>
       </li>
@@ -101,11 +107,11 @@ function Home() {
               <span className="block">11th June, 2021</span>
             </div>
           </div>
-          <div className="flex justify-center items-center mt-4 mb-10">
+          {/* <div className="flex justify-center items-center mt-4 mb-10">
             <button className="bg-red-600 text-white p-2 shadow-xl rounded-md hover:bg-blue-900 hover:text-white">
               View All Events
             </button>
-          </div>
+          </div> */}
         </div>
       </section>
     </article>
